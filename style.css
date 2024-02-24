@@ -58,6 +58,7 @@ position: relative;
   -webkit-background-clip: text;
   background-position: 0 0;
   animation: back2 20s linear infinite;
+  text-transform: uppercase;
 }
 
 @keyframes back2 
@@ -75,7 +76,8 @@ position: relative;
   align-items: center;
   flex-wrap: wrap;
   margin-top: 2%;
-
+  position: relative;
+  text-align: center;
 }
 
 .text-box a {
