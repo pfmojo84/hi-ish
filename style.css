@@ -24,10 +24,7 @@ position: relative;
   margin-top: 5rem;
 }
 
-.text-box p {
-  font-size: 75px;
-  font-weight: 600;
-}
+
 
 .text-box h1 
 {
@@ -58,7 +55,6 @@ position: relative;
   -webkit-background-clip: text;
   background-position: 0 0;
   animation: back2 20s linear infinite;
-  text-transform: uppercase;
 }
 
 @keyframes back2 
