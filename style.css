@@ -20,7 +20,7 @@ position: relative;
 .text-box
 {
   color: #fff;
-  position:absolute;
+  position:relative;
   margin-top: 5rem;
 }
 
@@ -44,7 +44,7 @@ position: relative;
 {
   100%
   {
-    background-position: 2000px 0;
+    background-position: 1000px 0;
   }
 }
 
@@ -57,14 +57,14 @@ position: relative;
   background: url(./back.png);
   -webkit-background-clip: text;
   background-position: 0 0;
-  animation: back2 25s linear infinite;
+  animation: back2 20s linear infinite;
 }
 
 @keyframes back2 
 {
   100%
   {
-    background-position: 2000px 0;
+    background-position: 1000px 0;
   }
 }
 
@@ -74,23 +74,14 @@ position: relative;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: 30px;
-  justify-content: center;
+  margin-top: 2%;
+
 }
 
 .text-box a {
   color: #fff;
   text-decoration: none;
-  padding: 10px 20px;
-  margin-right: 20px;
+  padding: 10px 10px;
   border: 2px #fff solid;
-  align-items: center;
   font-size: 2rem;
-  justify-items: center;
-  position: fixed;
-  bottom: 20vh;
-  left: 50%;
-  transform: translateX(-50%);
-  text-wrap: nowrap;
-
 }
